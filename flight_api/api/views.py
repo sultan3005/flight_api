@@ -2,7 +2,7 @@ from flight_api.flights.models import AirportsData
 from django.shortcuts import render
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.serializers import Serializer
-from flights.models import Flights 
+from .flights.models import Flights 
 from .serializer import FlightSerializer
 from rest_framework.views import APIView
 
